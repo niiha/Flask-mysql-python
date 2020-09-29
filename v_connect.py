@@ -6,9 +6,9 @@ import MySQLdb,sys
 import getpass
 
 # CONSTANTS
-HOST="DB_ENDPOINT/HOSTNAME_GOES_HERE"
-DATABASE="DB_NAME_GOES_HERE"
-USER="DB_USERNAME_GOES_HERE"
+HOST="database-2.c3bnzrxiuxf0.ap-south-1.rds.amazonaws.com"
+DATABASE="game"
+USER="admin"
 PASSWORD=getpass.getpass("Enter Password: ")
 #
 
